@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+#img {
+  border-radius: 50%;
+}
+main > div {
+  padding: 15px 0;
+}
+main > div > div > div {
+  padding: 10px 25px;
+}
+
+.body-2 {
+  border-left: 1px solid black;
+}
+
+h3 {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  padding: 12px 22px;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 8px 10px;
+}
+#contact ul li {
+  margin: 8px 0;
+}
+#contact ul i {
+  margin-right: 10px;
+}
+#reference ul {
+  list-style: none;
+  padding: 0;
+}
+
+#newPerson {
+  position: fixed;
+  top: 9px;
+  right: 90px;
+  z-index: 9999;
+}
